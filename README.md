@@ -1,5 +1,6 @@
 # python_starter
-My python starter repo
+
+Python starter project with types, linter, formater, unittests and more. 
 
 # Setup 
 
@@ -15,3 +16,11 @@ Install dependencies
 or 
 
 `make install`
+
+# Packages 
+
+- mypy
+- flake8 
+- black
+- pytest
+

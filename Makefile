@@ -1,6 +1,15 @@
 lint:
 	flake8 .
 
+format:
+	black .
+
+check:
+	mypy src/
+
+test:
+	pytest tests/
+
 freeze:
 	pip3 freeze > requirements.txt
 
